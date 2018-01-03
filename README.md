@@ -22,17 +22,25 @@ For questions or issues please use the [Google Group](https://groups.google.com/
 
 As opposed to the original darknet, it is not possible to compile without CUDA and OpenCV.
 
-### Usage
+# Installation
 
-```sh
-wget https://pjreddie.com/media/files/yolo.weights
-```
+first follow the install guide in OpenNi folder
 
+then
 ```sh
 mkdir build
 cd build
 cmake ..
 make 
+```
+
+# To run
+
+```sh
+wget https://pjreddie.com/media/files/yolo.weights
+```
+```sh
+./darknet_cpp
 ```
 
 What you get is the following executables in the source folder. 

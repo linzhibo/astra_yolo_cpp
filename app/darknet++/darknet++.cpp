@@ -183,11 +183,11 @@ int main(int argc, char** argv)
     // }
 
     Yolo yolo;
-    yolo.setConfigFilePath("/home/zhibo//application/yolo_cpp/cfg/yolo.cfg");
-    yolo.setDataFilePath("/home/zhibo//application/yolo_cpp/cfg/coco.data");
-    yolo.setWeightFilePath("/home/zhibo//application/yolo_cpp/yolo.weights");
-    yolo.setAlphabetPath("/home/zhibo//application/yolo_cpp/data/labels/");
-    yolo.setNameListFile("/home/zhibo//application/yolo_cpp/data/coco.names");
+    yolo.setConfigFilePath("cfg/yolo.cfg");
+    yolo.setDataFilePath("cfg/coco.data");
+    yolo.setWeightFilePath("yolo.weights");
+    yolo.setAlphabetPath("data/labels/");
+    yolo.setNameListFile("data/coco.names");
     yolo.setThreshold(0.3);
 
     // cv::VideoCapture capture(argv[1]);
